@@ -49,6 +49,6 @@ return {
     Prompt = {
         prompt = "Please only write code using the following prompt, $input",
         replace = true,
-        extract = "```$filetype\n(.-)```",
+        -- extract = "```$filetype\n(.-)```",
     },
 }
